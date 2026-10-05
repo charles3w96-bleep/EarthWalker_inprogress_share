@@ -1,0 +1,54 @@
+html { 
+    background: #111;
+}
+ @font-face {
+    font-family: 'SairaStencil-Thin';
+    src: url('fonts1/SairaStencil-Thin.woff2') format('woff2'),
+         url('fonts1/SairaStencil-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+ @font-face {
+    font-family: 'Mynerve';
+    src: url('fonts1/Mynerve-Regular.woff2') format('woff2'),
+         url('fonts1/Mynerve-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body { 
+    font-family: 'Mynerve', sans-serif;
+    background: #ddd;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    }
+
+.earthwalker-logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 { 
+   font-family: 'SairaStencil-Thin', sans-serif;
+    width: 500px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px dotted black;
+ }
+
+h2 { 
+     font-family: 'SairaStencil-Thin', sans-serif;
+}
+
+h3 { 
+     font-family: 'SairaStencil-Thin', sans-serif;
+}
